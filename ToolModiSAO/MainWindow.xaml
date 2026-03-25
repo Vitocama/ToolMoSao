@@ -1,0 +1,68 @@
+﻿<Window x:Class="ToolModiSAO.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Header="clr-namespace:ToolModiSAO.HeaderControl"
+        xmlns:Middle="clr-namespace:ToolModiSAO.MiddleControl"
+        xmlns:Menu="clr-namespace:ToolModiSAO.MenuControl"
+        xmlns:common="clr-namespace:ToolModiSAO.Common"
+        Title="MainWindow" MaxHeight="500" MaxWidth="1000"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <common:ViewSelector x:Key="DynamicViewSelector"/>
+    </Window.Resources>
+
+    <Grid Style="{StaticResource TotaleSfondo}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Menu a sinistra -->
+        <Menu:MenuView Grid.Column="0"
+                       HorizontalAlignment="Left"
+                       DataContext="{Binding MenuVM}" />
+
+        <!-- Colonna destra: immagine + testo in stile Marina Militare -->
+        <Grid Grid.Column="1">
+
+            <!-- Immagine di sfondo -->
+            <Image Source="/IMG/MMI.png"
+                   Width="600" Height="600"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"/>
+
+            <!-- Contenitore testo con linea verticale blu a sx -->
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        Margin="40,0,0,0">
+
+                <!-- Linea verticale blu -->
+                <Rectangle Width="1"
+                           Fill="WhiteSmoke"
+                           RadiusX="2" RadiusY="2"
+                           VerticalAlignment="Stretch"
+                           Margin="0,0,16,0"/>
+
+                <!-- Testi -->
+                <StackPanel Orientation="Vertical"
+                            VerticalAlignment="Center">
+                    <TextBlock Text="tool"
+                               Foreground="Wheat"
+                               FontSize="22"
+                               FontWeight="Normal"/>
+                    <TextBlock Text="per la gestione"
+                               Foreground="Wheat"
+                               FontSize="22"
+                               FontWeight="Bold"/>
+                    <TextBlock Text="SAOResoForm"
+                               Foreground="Wheat"
+                               FontSize="28"
+                               FontWeight="Bold"/>
+                </StackPanel>
+
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,53 @@
+﻿<UserControl x:Class="ToolModiSAO.MenuControl.MenuView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d"
+             Width="155"
+             MaxHeight="330"
+             Margin="8,0,0,0">
+    <Border BorderBrush="Black" BorderThickness="2" CornerRadius="8,10,10,10" Height="160">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+              
+            </Grid.RowDefinitions>
+
+            <!-- HOME -->
+            <Border Grid.Row="0" Style="{StaticResource BorderMenu}">
+                <Button Content="HOME"
+                        Style="{StaticResource MenuButton}"
+                        Command="{Binding OpenHomeCommand}"
+                        IsEnabled="{Binding IsMaster}"/>
+            </Border>
+
+            <!-- PERSONALE -->
+            <Border Grid.Row="1" Style="{StaticResource BorderMenu}">
+                <Button Content="PERSONALE"
+                        Style="{StaticResource MenuButton}"
+                        Command="{Binding OpenPersonaleCommand}"
+                        IsEnabled="{Binding IsMaster}"/>
+            </Border>
+
+            <!-- ATTESTATI -->
+            <Border Grid.Row="2" Style="{StaticResource BorderMenu}">
+                <Button Content="ATTESTATI"
+                        Style="{StaticResource MenuButton}"
+                        Command="{Binding OpenAttestatiCommand}"
+                        IsEnabled="{Binding IsMaster}"/>
+            </Border>
+
+            <!-- REPORTISTICHE: sempre abilitato -->
+            <Border Grid.Row="3" Style="{StaticResource BorderMenu}">
+                <Button Content="ACCAUNT"
+                        Style="{StaticResource MenuButton}"
+                        Command="{Binding OpenReportisticaCommand}"/>
+            </Border>
+
+        </Grid>
+    </Border>
+</UserControl>
