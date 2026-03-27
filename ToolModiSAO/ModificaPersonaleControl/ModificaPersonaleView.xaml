@@ -1,0 +1,135 @@
+﻿<Window x:Class="ToolModiSAO.ModificaPersonaleControl.ModificaPersonaleView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Modifica Personale"
+        Width="620" SizeToContent="Height"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterOwner"
+        ShowInTaskbar="False">
+
+    <Grid Margin="20" Style="{DynamicResource TotaleSfondo}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="10"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Matricola -->
+            <StackPanel Grid.Row="0" Grid.Column="0" Margin="0,0,0,10">
+                <TextBlock Style="{DynamicResource WhiteBoldText}" Text="🔏 Matricola" Margin="0,0,0,3" Foreground="red"/>
+                <TextBox Text="{Binding Personale.Matricola}" IsReadOnly="True" Background="#F5F5F5"/>
+                
+            </StackPanel>
+
+            <!-- Grado / Qualifica -->
+            <StackPanel Grid.Row="0" Grid.Column="2" Margin="0,0,0,10">
+                <TextBlock Style="{DynamicResource WhiteBoldText}" Text="Grado / Qualifica" Margin="0,0,0,3"/>
+                <TextBox Text="{Binding Personale.GradoQualifica, UpdateSourceTrigger=PropertyChanged}"/>
+            </StackPanel>
+
+            <!-- Cognome -->
+            <StackPanel Grid.Row="1" Grid.Column="0" Margin="0,0,0,10">
+                <TextBlock Style="{DynamicResource WhiteBoldText}" Text="🔏Cognome" Margin="0,0,0,3" Foreground="red"/>
+                <TextBox Text="{Binding Personale.Cognome, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True"/>
+            </StackPanel>
+
+            <!-- Nome -->
+            <StackPanel Grid.Row="1" Grid.Column="2" Margin="0,0,0,10">
+                <TextBlock Style="{DynamicResource WhiteBoldText}" Text="🔏Nome" Margin="0,0,0,3" Foreground="red"/>
+                <TextBox Text="{Binding Personale.Nome, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True"/>
+            </StackPanel>
+
+            <!-- Categoria / Profilo -->
+            <StackPanel Grid.Row="2" Grid.Column="0" Margin="0,0,0,10">
+                <TextBlock Style="{DynamicResource WhiteBoldText}" Text="Categoria / Profilo" Margin="0,0,0,3"/>
+                <TextBox Text="{Binding Personale.CategoriaProfilo, UpdateSourceTrigger=PropertyChanged}"/>
+            </StackPanel>
+
+            <!-- Mil / Civ -->
+            <StackPanel Grid.Row="2" Grid.Column="2" Margin="0,0,0,10">
+                <TextBlock Style="{DynamicResource WhiteBoldText}" Text="Mil / Civ" Margin="0,0,0,3"/>
+                <TextBox Text="{Binding Personale.MilCiv, UpdateSourceTrigger=PropertyChanged}"/>
+            </StackPanel>
+
+            <!-- Cod Reparto -->
+            <StackPanel Grid.Row="3" Grid.Column="0" Margin="0,0,0,10">
+                <TextBlock Style="{DynamicResource WhiteBoldText}" Text="🔏Cod. Reparto" Margin="0,0,0,3" Foreground="red"/>
+                <TextBox Text="{Binding Personale.CodReparto, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True"/>
+            </StackPanel>
+
+            <!-- Cod Sezione -->
+            <StackPanel Grid.Row="3" Grid.Column="2" Margin="0,0,0,10">
+                <TextBlock Style="{DynamicResource WhiteBoldText}" Text="🔏Cod. Sezione" Margin="0,0,0,3" Foreground="red"/>
+                <TextBox Text="{Binding Personale.CodSezione, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True"/>
+            </StackPanel>
+
+            <!-- Cod Nucleo -->
+            <StackPanel Grid.Row="4" Grid.Column="0" Margin="0,0,0,10">
+                <TextBlock Style="{DynamicResource WhiteBoldText}" Text="🔏Cod. Nucleo" Margin="0,0,0,3"/>
+                <TextBox Text="{Binding Personale.CodNucleo, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" Foreground="red"/>
+            </StackPanel>
+
+            <!-- Cod Ufficio -->
+            <StackPanel Grid.Row="4" Grid.Column="2" Margin="0,0,0,10">
+                <TextBlock Style="{DynamicResource WhiteBoldText}" Text="🔏Cod. Ufficio" Margin="0,0,0,3"/>
+                <TextBox Text="{Binding Personale.CodUfficio, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" Foreground="red"/>
+            </StackPanel>
+
+            <!-- Incarico -->
+            <StackPanel Grid.Row="5" Grid.Column="0" Margin="0,0,0,10">
+                <TextBlock Style="{DynamicResource WhiteBoldText}" Text="Incarico" Margin="0,0,0,3"/>
+                <TextBox Text="{Binding Personale.Incarico, UpdateSourceTrigger=PropertyChanged}"/>
+            </StackPanel>
+
+            <!-- Stato Servizio -->
+            <StackPanel Grid.Row="5" Grid.Column="2" Margin="0,0,0,10">
+                <TextBlock Style="{DynamicResource WhiteBoldText}" Text="Stato di Servizio" Margin="0,0,0,3"/>
+                <TextBox Text="{Binding Personale.StatoServizio, UpdateSourceTrigger=PropertyChanged}"/>
+            </StackPanel>
+
+            <!-- Attivo -->
+            <StackPanel Grid.Row="6" Grid.Column="0" Margin="0,0,0,10">
+                <TextBlock Style="{DynamicResource WhiteBoldText}" Text="Attivo" Margin="0,0,0,3"/>
+                <TextBox Text="{Binding Personale.Attivo, UpdateSourceTrigger=PropertyChanged}"/>
+            </StackPanel>
+
+            <!-- Annotazioni -->
+            <StackPanel Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="3" Margin="0,0,0,10">
+                <TextBlock Style="{DynamicResource WhiteBoldText}" Text="Annotazioni" Margin="0,0,0,3"/>
+                <TextBox Text="{Binding Personale.Annotazioni, UpdateSourceTrigger=PropertyChanged}"
+                         AcceptsReturn="True" TextWrapping="Wrap" Height="70"
+                         VerticalScrollBarVisibility="Auto"/>
+            </StackPanel>
+        </Grid>
+
+        <Separator Grid.Row="1" Margin="0,5"/>
+
+        <Grid Grid.Row="2" Margin="0,10,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Content="Annulla" Command="{Binding AnnullaCommand}"
+                    Style="{StaticResource NavyButtonStyle}" HorizontalAlignment="Left"/>
+            <Button Grid.Column="1" Content="Salva" Command="{Binding SalvaCommand}"
+                    Style="{StaticResource NavyButtonStyle}" HorizontalAlignment="Right"/>
+        </Grid>
+    </Grid>
+</Window>

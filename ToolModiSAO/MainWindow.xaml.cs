@@ -24,7 +24,8 @@ namespace ToolModiSAO
         public MainWindow()
         {
             InitializeComponent();
-        
+            DataContext = new MainViewModel();
+
         }
     }
 }

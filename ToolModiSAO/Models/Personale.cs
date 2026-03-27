@@ -9,7 +9,7 @@ namespace ToolModiSAO.Models
 {
     public partial class Personale
     {
-        public long Id { get; set; }
+        public int Id { get; set; }
         public string GradoQualifica { get; set; }
         public string CategoriaProfilo { get; set; }
         public string Cognome { get; set; }

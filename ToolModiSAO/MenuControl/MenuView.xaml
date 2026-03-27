@@ -30,7 +30,7 @@
                 <Button Content="PERSONALE"
                         Style="{StaticResource MenuButton}"
                         Command="{Binding OpenPersonaleCommand}"
-                        IsEnabled="{Binding IsMaster}"/>
+                        />
             </Border>
 
             <!-- ATTESTATI -->
@@ -38,7 +38,7 @@
                 <Button Content="ATTESTATI"
                         Style="{StaticResource MenuButton}"
                         Command="{Binding OpenAttestatiCommand}"
-                        IsEnabled="{Binding IsMaster}"/>
+                        />
             </Border>
 
             <!-- REPORTISTICHE: sempre abilitato -->

@@ -55,6 +55,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="PersonaleControl\PersonaleView.xaml.cs">
+      <DependentUpon>PersonaleView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PersonaleControl\PersonaleViewModel.cs" />
+    <Compile Include="ServiceRepository\Repository.cs" />
+    <Compile Include="ServiceRepository\IServiceRepository.cs" />
     <Page Include="HeaderControl\HeaderControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -81,6 +87,7 @@
       <DependentUpon>HomeView.xaml</DependentUpon>
     </Compile>
     <Compile Include="HomeControl\HomeViewModel.cs" />
+    <Compile Include="MainViewModel.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -90,6 +97,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MiddleControl\MiddleView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ModificaPersonaleControl\ModificaPersonaleView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PersonaleControl\PersonaleView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -154,6 +169,7 @@
     <Compile Include="MenuControl\MenuView.xaml.cs">
       <DependentUpon>MenuView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MenuControl\MenuViewModel.cs" />
     <Compile Include="MiddleControl\MiddleView.xaml.cs">
       <DependentUpon>MiddleView.xaml</DependentUpon>
     </Compile>
@@ -161,6 +177,10 @@
     <Compile Include="Models\Attestati.cs" />
     <Compile Include="Models\Personale.cs" />
     <Compile Include="Models\tblContext.cs" />
+    <Compile Include="ModificaPersonaleControl\ModificaPersonaleView.xaml.cs">
+      <DependentUpon>ModificaPersonaleView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ModificaPersonaleControl\ModificaPersonaleViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -197,6 +217,9 @@
       <Version>3.1.32</Version>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="MvvmLightLibs">
+      <Version>5.4.1.1</Version>
     </PackageReference>
     <PackageReference Include="SQLitePCLRaw.lib.e_sqlite3">
       <Version>2.1.11</Version>

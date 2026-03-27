@@ -77,3 +77,15 @@ C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\obj\Debug\App.baml
 C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\obj\Debug\HeaderControl\HeaderControl.baml
 C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\obj\Debug\HomeControl\HomeView.baml
 C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\obj\Debug\MiddleControl\MiddleView.baml
+C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\bin\Debug\CommonServiceLocator.dll
+C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\obj\Debug\ModificaPersonaleControl\ModificaPersonaleView.baml
+C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\obj\Debug\ModificaPersonaleControl\ModificaPersonaleView.g.cs
+C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\obj\Debug\PersonaleControl\PersonaleView.g.cs
+C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\obj\Debug\PersonaleControl\PersonaleView.baml
