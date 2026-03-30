@@ -3,52 +3,120 @@
   "WorkspaceRootPath": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\modificapersonalecontrol\\modificapersonaleview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\modificapersonalecontrol\\modificapersonaleview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\uuoocontrol\\coduuooview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\uuoocontrol\\coduuooview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\servicerepository\\iservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\servicerepository\\iservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\uuoocontrol\\coduuooview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\uuoocontrol\\coduuooview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\modificapersonalecontrol\\modificapersonaleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\modificapersonalecontrol\\modificapersonaleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\uuoocontrol\\uuooviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\uuoocontrol\\uuooviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\toolmodisao\\modificapersonalecontrol\\modificapersonaleview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\modificapersonalecontrol\\modificapersonaleview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\personalecontrol\\personaleview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\personalecontrol\\personaleview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\modificaaccountcontrol\\modificaaccountview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\modificaaccountcontrol\\modificaaccountview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\personalecontrol\\personaleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\personalecontrol\\personaleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\modificaaccountcontrol\\modificaaccountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\modificaaccountcontrol\\modificaaccountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\personalecontrol\\personaleview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\personalecontrol\\personaleview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\dati\\cod_uuoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\dati\\cod_uuoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\modificaaccountcontrol\\modificaaccountview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\modificaaccountcontrol\\modificaaccountview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\accontcontrol\\accountview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\accontcontrol\\accountview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\models\\accountutenti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\models\\accountutenti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\menucontrol\\menuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\menucontrol\\menuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\accontcontrol\\accountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\accontcontrol\\accountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\toolmodisao\\menucontrol\\menuview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\menucontrol\\menuview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\menucontrol\\menuview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\menucontrol\\menuview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\menucontrol\\menuview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\menucontrol\\menuview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\attestaticontrol\\attestatiview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\attestaticontrol\\attestatiview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\common\\commonbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\common\\commonbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\personalecontrol\\personaleview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\personalecontrol\\personaleview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\common\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\common\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\personalecontrol\\personaleview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\personalecontrol\\personaleview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\models\\personale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\models\\personale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\obj\\Debug\\PersonaleControl\\PersonaleView.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ToolModiSAO\\obj\\Debug\\PersonaleControl\\PersonaleView.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\modificapersonalecontrol\\modificapersonaleview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\modificapersonalecontrol\\modificapersonaleview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\servicerepository\\dialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\servicerepository\\dialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\servicerepository\\idialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\servicerepository\\idialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\servicerepository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\servicerepository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\servicerepository\\iservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\servicerepository\\iservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\attestaticontrol\\attestativiewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\attestaticontrol\\attestativiewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\modificaattestaticontrol\\modificaattestativiewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\modificaattestaticontrol\\modificaattestativiewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\modificapersonalecontrol\\modificapersonaleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\modificapersonalecontrol\\modificapersonaleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\modificapersonalecontrol\\modificapersonaleview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\modificapersonalecontrol\\modificapersonaleview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|c:\\users\\hirad\\source\\repos\\toolmodisao\\toolmodisao\\models\\attestati.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E44C0C9-F08A-4D9B-991C-565D070FA87A}|ToolModiSAO\\ToolModiSAO.csproj|solutionrelative:toolmodisao\\models\\attestati.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -71,114 +139,178 @@
           ]
         },
         {
-          "DockedWidth": 770,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 952,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ModificaPersonaleView.xaml",
-              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ModificaPersonaleControl\\ModificaPersonaleView.xaml",
-              "RelativeDocumentMoniker": "ToolModiSAO\\ModificaPersonaleControl\\ModificaPersonaleView.xaml",
-              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ModificaPersonaleControl\\ModificaPersonaleView.xaml*",
-              "RelativeToolTip": "ToolModiSAO\\ModificaPersonaleControl\\ModificaPersonaleView.xaml*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-27T16:23:16.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IServiceRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ServiceRepository\\IServiceRepository.cs",
-              "RelativeDocumentMoniker": "ToolModiSAO\\ServiceRepository\\IServiceRepository.cs",
-              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ServiceRepository\\IServiceRepository.cs",
-              "RelativeToolTip": "ToolModiSAO\\ServiceRepository\\IServiceRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UuooViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\UuooControl\\UuooViewModel.cs",
+              "RelativeDocumentMoniker": "ToolModiSAO\\UuooControl\\UuooViewModel.cs",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\UuooControl\\UuooViewModel.cs*",
+              "RelativeToolTip": "ToolModiSAO\\UuooControl\\UuooViewModel.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T16:25:45.313Z",
+              "WhenOpened": "2026-03-30T11:19:57.147Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ModificaPersonaleView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ModificaPersonaleControl\\ModificaPersonaleView.xaml.cs",
-              "RelativeDocumentMoniker": "ToolModiSAO\\ModificaPersonaleControl\\ModificaPersonaleView.xaml.cs",
-              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ModificaPersonaleControl\\ModificaPersonaleView.xaml.cs",
-              "RelativeToolTip": "ToolModiSAO\\ModificaPersonaleControl\\ModificaPersonaleView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T11:01:28.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PersonaleView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\PersonaleControl\\PersonaleView.xaml.cs",
-              "RelativeDocumentMoniker": "ToolModiSAO\\PersonaleControl\\PersonaleView.xaml.cs",
-              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\PersonaleControl\\PersonaleView.xaml.cs",
-              "RelativeToolTip": "ToolModiSAO\\PersonaleControl\\PersonaleView.xaml.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAqwBYAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T15:55:00.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ModificaPersonaleViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ModificaPersonaleControl\\ModificaPersonaleViewModel.cs",
-              "RelativeDocumentMoniker": "ToolModiSAO\\ModificaPersonaleControl\\ModificaPersonaleViewModel.cs",
-              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ModificaPersonaleControl\\ModificaPersonaleViewModel.cs",
-              "RelativeToolTip": "ToolModiSAO\\ModificaPersonaleControl\\ModificaPersonaleViewModel.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAqwB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T15:55:54.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MenuView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\MenuControl\\MenuView.xaml.cs",
-              "RelativeDocumentMoniker": "ToolModiSAO\\MenuControl\\MenuView.xaml.cs",
-              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\MenuControl\\MenuView.xaml.cs",
-              "RelativeToolTip": "ToolModiSAO\\MenuControl\\MenuView.xaml.cs",
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\App.config",
+              "RelativeDocumentMoniker": "ToolModiSAO\\App.config",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\App.config",
+              "RelativeToolTip": "ToolModiSAO\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-03-30T11:18:37.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CodUUooView.xaml",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\UuooControl\\CodUUooView.xaml",
+              "RelativeDocumentMoniker": "ToolModiSAO\\UuooControl\\CodUUooView.xaml",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\UuooControl\\CodUUooView.xaml*",
+              "RelativeToolTip": "ToolModiSAO\\UuooControl\\CodUUooView.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-30T11:08:26.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CodUUooView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\UuooControl\\CodUUooView.xaml.cs",
+              "RelativeDocumentMoniker": "ToolModiSAO\\UuooControl\\CodUUooView.xaml.cs",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\UuooControl\\CodUUooView.xaml.cs*",
+              "RelativeToolTip": "ToolModiSAO\\UuooControl\\CodUUooView.xaml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T15:52:47.148Z",
+              "WhenOpened": "2026-03-30T11:08:21.066Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Cod_UUOO.cs",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\Dati\\Cod_UUOO.cs",
+              "RelativeDocumentMoniker": "ToolModiSAO\\Dati\\Cod_UUOO.cs",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\Dati\\Cod_UUOO.cs",
+              "RelativeToolTip": "ToolModiSAO\\Dati\\Cod_UUOO.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAqwFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T11:05:42.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ModificaAccountView.xaml",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ModificaAccountControl\\ModificaAccountView.xaml",
+              "RelativeDocumentMoniker": "ToolModiSAO\\ModificaAccountControl\\ModificaAccountView.xaml",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ModificaAccountControl\\ModificaAccountView.xaml*",
+              "RelativeToolTip": "ToolModiSAO\\ModificaAccountControl\\ModificaAccountView.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-30T09:33:03.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ModificaAccountViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ModificaAccountControl\\ModificaAccountViewModel.cs",
+              "RelativeDocumentMoniker": "ToolModiSAO\\ModificaAccountControl\\ModificaAccountViewModel.cs",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ModificaAccountControl\\ModificaAccountViewModel.cs",
+              "RelativeToolTip": "ToolModiSAO\\ModificaAccountControl\\ModificaAccountViewModel.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAqwEkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T09:45:50.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ModificaAccountView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ModificaAccountControl\\ModificaAccountView.xaml.cs",
+              "RelativeDocumentMoniker": "ToolModiSAO\\ModificaAccountControl\\ModificaAccountView.xaml.cs",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ModificaAccountControl\\ModificaAccountView.xaml.cs",
+              "RelativeToolTip": "ToolModiSAO\\ModificaAccountControl\\ModificaAccountView.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T10:07:33.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\AccontControl\\AccountView.xaml.cs",
+              "RelativeDocumentMoniker": "ToolModiSAO\\AccontControl\\AccountView.xaml.cs",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\AccontControl\\AccountView.xaml.cs",
+              "RelativeToolTip": "ToolModiSAO\\AccontControl\\AccountView.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T09:42:29.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountUtenti.cs",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\Models\\AccountUtenti.cs",
+              "RelativeDocumentMoniker": "ToolModiSAO\\Models\\AccountUtenti.cs",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\Models\\AccountUtenti.cs",
+              "RelativeToolTip": "ToolModiSAO\\Models\\AccountUtenti.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA4wBcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T09:29:10.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MenuViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\MenuControl\\MenuViewModel.cs",
+              "RelativeDocumentMoniker": "ToolModiSAO\\MenuControl\\MenuViewModel.cs",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\MenuControl\\MenuViewModel.cs",
+              "RelativeToolTip": "ToolModiSAO\\MenuControl\\MenuViewModel.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAYwG0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T07:49:23.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\AccontControl\\AccountViewModel.cs",
+              "RelativeDocumentMoniker": "ToolModiSAO\\AccontControl\\AccountViewModel.cs",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\AccontControl\\AccountViewModel.cs",
+              "RelativeToolTip": "ToolModiSAO\\AccontControl\\AccountViewModel.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAEYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T09:32:01.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "PersonaleView.xaml",
               "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\PersonaleControl\\PersonaleView.xaml",
               "RelativeDocumentMoniker": "ToolModiSAO\\PersonaleControl\\PersonaleView.xaml",
               "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\PersonaleControl\\PersonaleView.xaml",
               "RelativeToolTip": "ToolModiSAO\\PersonaleControl\\PersonaleView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-27T15:58:11.034Z",
+              "WhenOpened": "2026-03-30T09:48:08.72Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PersonaleViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\PersonaleControl\\PersonaleViewModel.cs",
-              "RelativeDocumentMoniker": "ToolModiSAO\\PersonaleControl\\PersonaleViewModel.cs",
-              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\PersonaleControl\\PersonaleViewModel.cs",
-              "RelativeToolTip": "ToolModiSAO\\PersonaleControl\\PersonaleViewModel.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAiwC4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T15:47:52.884Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "MenuView.xaml",
               "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\MenuControl\\MenuView.xaml",
               "RelativeDocumentMoniker": "ToolModiSAO\\MenuControl\\MenuView.xaml",
@@ -190,41 +322,196 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MenuViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\MenuControl\\MenuViewModel.cs",
-              "RelativeDocumentMoniker": "ToolModiSAO\\MenuControl\\MenuViewModel.cs",
-              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\MenuControl\\MenuViewModel.cs",
-              "RelativeToolTip": "ToolModiSAO\\MenuControl\\MenuViewModel.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAABcAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "MenuView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\MenuControl\\MenuView.xaml.cs",
+              "RelativeDocumentMoniker": "ToolModiSAO\\MenuControl\\MenuView.xaml.cs",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\MenuControl\\MenuView.xaml.cs",
+              "RelativeToolTip": "ToolModiSAO\\MenuControl\\MenuView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T16:08:02.759Z",
+              "WhenOpened": "2026-03-30T07:49:06.638Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CommonBase.cs",
-              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\Common\\CommonBase.cs",
-              "RelativeDocumentMoniker": "ToolModiSAO\\Common\\CommonBase.cs",
-              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\Common\\CommonBase.cs",
-              "RelativeToolTip": "ToolModiSAO\\Common\\CommonBase.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "Personale.cs",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\Models\\Personale.cs",
+              "RelativeDocumentMoniker": "ToolModiSAO\\Models\\Personale.cs",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\Models\\Personale.cs",
+              "RelativeToolTip": "ToolModiSAO\\Models\\Personale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T15:50:10.389Z",
+              "WhenOpened": "2026-03-30T09:53:43.572Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\Common\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "ToolModiSAO\\Common\\RelayCommand.cs",
-              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\Common\\RelayCommand.cs",
-              "RelativeToolTip": "ToolModiSAO\\Common\\RelayCommand.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAiwFUAAAABAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "AttestatiView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\AttestatiControl\\AttestatiView.xaml.cs",
+              "RelativeDocumentMoniker": "ToolModiSAO\\AttestatiControl\\AttestatiView.xaml.cs",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\AttestatiControl\\AttestatiView.xaml.cs",
+              "RelativeToolTip": "ToolModiSAO\\AttestatiControl\\AttestatiView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T15:50:00.582Z",
+              "WhenOpened": "2026-03-30T09:57:13.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PersonaleView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\PersonaleControl\\PersonaleView.xaml.cs",
+              "RelativeDocumentMoniker": "ToolModiSAO\\PersonaleControl\\PersonaleView.xaml.cs",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\PersonaleControl\\PersonaleView.xaml.cs",
+              "RelativeToolTip": "ToolModiSAO\\PersonaleControl\\PersonaleView.xaml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAEwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T09:56:04.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PersonaleView.g.cs",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\obj\\Debug\\PersonaleControl\\PersonaleView.g.cs",
+              "RelativeDocumentMoniker": "ToolModiSAO\\obj\\Debug\\PersonaleControl\\PersonaleView.g.cs",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\obj\\Debug\\PersonaleControl\\PersonaleView.g.cs",
+              "RelativeToolTip": "ToolModiSAO\\obj\\Debug\\PersonaleControl\\PersonaleView.g.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAawEUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T09:51:01.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ModificaPersonaleView.xaml",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ModificaPersonaleControl\\ModificaPersonaleView.xaml",
+              "RelativeDocumentMoniker": "ToolModiSAO\\ModificaPersonaleControl\\ModificaPersonaleView.xaml",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ModificaPersonaleControl\\ModificaPersonaleView.xaml",
+              "RelativeToolTip": "ToolModiSAO\\ModificaPersonaleControl\\ModificaPersonaleView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-30T08:47:10.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DialogService.cs",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ServiceRepository\\DialogService.cs",
+              "RelativeDocumentMoniker": "ToolModiSAO\\ServiceRepository\\DialogService.cs",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ServiceRepository\\DialogService.cs",
+              "RelativeToolTip": "ToolModiSAO\\ServiceRepository\\DialogService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAEwB0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T08:41:31.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ServiceRepository\\Repository.cs",
+              "RelativeDocumentMoniker": "ToolModiSAO\\ServiceRepository\\Repository.cs",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ServiceRepository\\Repository.cs",
+              "RelativeToolTip": "ToolModiSAO\\ServiceRepository\\Repository.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAqwEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T09:36:38.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IServiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ServiceRepository\\IServiceRepository.cs",
+              "RelativeDocumentMoniker": "ToolModiSAO\\ServiceRepository\\IServiceRepository.cs",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ServiceRepository\\IServiceRepository.cs",
+              "RelativeToolTip": "ToolModiSAO\\ServiceRepository\\IServiceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T09:35:48.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IDialogService.cs",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ServiceRepository\\IDialogService.cs",
+              "RelativeDocumentMoniker": "ToolModiSAO\\ServiceRepository\\IDialogService.cs",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ServiceRepository\\IDialogService.cs",
+              "RelativeToolTip": "ToolModiSAO\\ServiceRepository\\IDialogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T08:36:52.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AttestatiViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\AttestatiControl\\AttestatiViewModel.cs",
+              "RelativeDocumentMoniker": "ToolModiSAO\\AttestatiControl\\AttestatiViewModel.cs",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\AttestatiControl\\AttestatiViewModel.cs",
+              "RelativeToolTip": "ToolModiSAO\\AttestatiControl\\AttestatiViewModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T08:24:41.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ModificaAttestatiViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ModificaAttestatiControl\\ModificaAttestatiViewModel.cs",
+              "RelativeDocumentMoniker": "ToolModiSAO\\ModificaAttestatiControl\\ModificaAttestatiViewModel.cs",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ModificaAttestatiControl\\ModificaAttestatiViewModel.cs",
+              "RelativeToolTip": "ToolModiSAO\\ModificaAttestatiControl\\ModificaAttestatiViewModel.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAqwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T09:01:17.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ModificaPersonaleView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ModificaPersonaleControl\\ModificaPersonaleView.xaml.cs",
+              "RelativeDocumentMoniker": "ToolModiSAO\\ModificaPersonaleControl\\ModificaPersonaleView.xaml.cs",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ModificaPersonaleControl\\ModificaPersonaleView.xaml.cs",
+              "RelativeToolTip": "ToolModiSAO\\ModificaPersonaleControl\\ModificaPersonaleView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T08:47:14.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ModificaPersonaleViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ModificaPersonaleControl\\ModificaPersonaleViewModel.cs",
+              "RelativeDocumentMoniker": "ToolModiSAO\\ModificaPersonaleControl\\ModificaPersonaleViewModel.cs",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\ModificaPersonaleControl\\ModificaPersonaleViewModel.cs",
+              "RelativeToolTip": "ToolModiSAO\\ModificaPersonaleControl\\ModificaPersonaleViewModel.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T09:15:22.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Attestati.cs",
+              "DocumentMoniker": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\Models\\Attestati.cs",
+              "RelativeDocumentMoniker": "ToolModiSAO\\Models\\Attestati.cs",
+              "ToolTip": "C:\\Users\\Hirad\\source\\repos\\ToolModiSAO\\ToolModiSAO\\Models\\Attestati.cs",
+              "RelativeToolTip": "ToolModiSAO\\Models\\Attestati.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T08:11:40.626Z",
               "EditorCaption": ""
             }
           ]

@@ -12,6 +12,9 @@ namespace ToolModiSAO.ModificaPersonaleControl
         private readonly Action<Personale> _onSalva;
 
         private Personale _personale;
+        private Attestati attestati;
+        private Action<Attestati> onSalvataggio;
+
         public Personale Personale
         {
             get => _personale;
@@ -28,6 +31,12 @@ namespace ToolModiSAO.ModificaPersonaleControl
 
             SalvaCommand = new RelayCommand<object>(_ => Salva());
             AnnullaCommand = new RelayCommand<object>(_ => Annulla());
+        }
+
+        public ModificaPersonaleViewModel(Attestati attestati, Action<Attestati> onSalvataggio)
+        {
+            this.attestati = attestati;
+            this.onSalvataggio = onSalvataggio;
         }
 
         private void Salva()

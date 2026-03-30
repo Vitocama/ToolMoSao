@@ -89,3 +89,14 @@ C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\obj\Debug\ModificaPersonaleC
 C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\obj\Debug\ModificaPersonaleControl\ModificaPersonaleView.g.cs
 C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\obj\Debug\PersonaleControl\PersonaleView.g.cs
 C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\obj\Debug\PersonaleControl\PersonaleView.baml
+C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\obj\Debug\AttestatiControl\AttestatiView.baml
+C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\obj\Debug\AttestatiControl\AttestatiView.g.cs
+C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\obj\Debug\ModificaAttestatiControl\ModificaAttestatiView.baml
+C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\obj\Debug\ModificaAttestatiControl\ModificaAttestatiView.g.cs
+C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\obj\Debug\ModificaAccountControl\ModificaAccountView.baml
+C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\obj\Debug\AccontControl\AccountView.g.cs
+C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\obj\Debug\ModificaAccountControl\ModificaAccountView.g.cs
+C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\obj\Debug\AccontControl\AccountView.baml
+C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\obj\Debug\UuooControl\CodUUooView.baml
+C:\Users\Hirad\source\repos\ToolModiSAO\ToolModiSAO\obj\Debug\UuooControl\CodUUooView.g.cs

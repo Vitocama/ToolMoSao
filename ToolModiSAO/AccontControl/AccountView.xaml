@@ -1,0 +1,47 @@
+﻿<Window x:Class="ToolModiSAO.AccontControl.AccountView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Gestione Account" Height="450" Width="900">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <DataGrid Grid.Row="0"
+                  ItemsSource="{Binding ListaAccount}"
+                  SelectedItem="{Binding AccountSelezionato}"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  CanUserAddRows="False">
+
+            <DataGrid.InputBindings>
+                <MouseBinding MouseAction="LeftDoubleClick"
+                              Command="{Binding ApriModificaCommand}" />
+            </DataGrid.InputBindings>
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID"             Binding="{Binding Id}"             Width="50"/>
+                <DataGridTextColumn Header="Utente"         Binding="{Binding Utente}"         Width="100"/>
+                <DataGridTextColumn Header="Cognome"        Binding="{Binding Cognome}"        Width="120"/>
+                <DataGridTextColumn Header="Nome"           Binding="{Binding Nome}"           Width="120"/>
+                <DataGridTextColumn Header="Matricola"      Binding="{Binding Matricola}"      Width="100"/>
+                <DataGridTextColumn Header="Incarico"       Binding="{Binding Incarico}"       Width="120"/>
+                <DataGridTextColumn Header="Ruolo"          Binding="{Binding Ruolo}"          Width="100"/>
+                <DataGridTextColumn Header="Amministratore" Binding="{Binding Amministratore}" Width="100"/>
+                <DataGridTextColumn Header="Consultazione"  Binding="{Binding Consultazione}"  Width="100"/>
+                <DataGridTextColumn Header="UUOO"           Binding="{Binding Uuoo}"           Width="80"/>
+                <DataGridTextColumn Header="Reparto"        Binding="{Binding Reparto}"        Width="80"/>
+                <DataGridTextColumn Header="Sezione"        Binding="{Binding Sezione}"        Width="80"/>
+                <DataGridTextColumn Header="Nucleo"         Binding="{Binding Nucleo}"         Width="80"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Pulsanti -->
+       
+    </Grid>
+</Window>

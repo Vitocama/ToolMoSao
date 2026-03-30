@@ -7,14 +7,15 @@
              Width="155"
              MaxHeight="330"
              Margin="8,0,0,0">
-    <Border BorderBrush="Black" BorderThickness="2" CornerRadius="8,10,10,10" Height="160">
+
+    <Border BorderBrush="Black" BorderThickness="2" CornerRadius="8,10,10,10" Height="200">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="40"/>
                 <RowDefinition Height="40"/>
                 <RowDefinition Height="40"/>
                 <RowDefinition Height="40"/>
-              
+                <RowDefinition Height="40"/>
             </Grid.RowDefinitions>
 
             <!-- HOME -->
@@ -29,24 +30,24 @@
             <Border Grid.Row="1" Style="{StaticResource BorderMenu}">
                 <Button Content="PERSONALE"
                         Style="{StaticResource MenuButton}"
-                        Command="{Binding OpenPersonaleCommand}"
-                        />
+                        Command="{Binding OpenPersonaleCommand}"/>
             </Border>
 
             <!-- ATTESTATI -->
             <Border Grid.Row="2" Style="{StaticResource BorderMenu}">
                 <Button Content="ATTESTATI"
                         Style="{StaticResource MenuButton}"
-                        Command="{Binding OpenAttestatiCommand}"
-                        />
+                        Command="{Binding OpenAttestatiCommand}"/>
             </Border>
 
-            <!-- REPORTISTICHE: sempre abilitato -->
+            <!-- ACCOUNT -->
             <Border Grid.Row="3" Style="{StaticResource BorderMenu}">
-                <Button Content="ACCAUNT"
+                <Button Content="ACCOUNT"
                         Style="{StaticResource MenuButton}"
-                        Command="{Binding OpenReportisticaCommand}"/>
+                        Command="{Binding OpenAccountCommand}"/>
             </Border>
+
+           
 
         </Grid>
     </Border>

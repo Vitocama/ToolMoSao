@@ -1,6 +1,9 @@
-﻿using System.Windows;
+﻿using GalaSoft.MvvmLight.Views;
+using System.Windows;
 using System.Windows.Input;
+using ToolModiSAO.ModificaAccountControl;
 using ToolModiSAO.ServiceRepository;
+
 
 namespace ToolModiSAO.PersonaleControl
 {
@@ -9,25 +12,9 @@ namespace ToolModiSAO.PersonaleControl
         public PersonaleView()
         {
             InitializeComponent();
-            DataContext = new PersonaleViewModel(new Repository());
+            DataContext = new PersonaleViewModel(new Repository(), new DialogService());
         }
 
-        private void DataGrid_MouseDoubleClick(object sender, MouseButtonEventArgs e)
-        {
-            var vm = DataContext as PersonaleViewModel;
-            if (vm?.PersonaleSelezionato == null) return;
-
-            var modificaView = new ModificaPersonaleControl.ModificaPersonaleView
-            {
-                DataContext = new ModificaPersonaleControl.ModificaPersonaleViewModel(
-                    vm.PersonaleSelezionato,
-                    personaleAggiornato =>
-                    {
-                        new Repository().Aggiorna(personaleAggiornato);
-                        vm.RicaricaPersonale(); // ✅ parentesi aggiunte
-                    })
-            };
-            modificaView.ShowDialog();
-        }
+       
     }
 }

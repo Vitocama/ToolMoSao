@@ -21,6 +21,7 @@ namespace ToolModiSAO.Models
         public string Ruolo { get; set; }
         public string Matricola { get; set; }
         public string Reparto { get; set; }
+      
         public string Sezione { get; set; }
         public string Nucleo { get; set; }
     }

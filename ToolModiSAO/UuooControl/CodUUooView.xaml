@@ -1,0 +1,39 @@
+﻿<Window x:Class="ToolModiSAO.UuooView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        mc:Ignorable="d"
+        Title="Codici UUOO" Height="500" Width="600"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Intestazione -->
+        <TextBlock Grid.Row="0"
+                   Text="Elenco Codici UUOO"
+                   Style="{DynamicResource WhiteBoldText}"
+                   FontSize="16"
+                   Margin="0,0,0,10"/>
+
+        <!-- DataGrid -->
+        <DataGrid Grid.Row="1"
+                  ItemsSource="{Binding ListaCodici}"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Denominazione"
+                                    Binding="{Binding Denominazione}"
+                                    Width="*"/>
+                <DataGridTextColumn Header="Codice"
+                                    Binding="{Binding Codice}"
+                                    Width="80"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
