@@ -2,19 +2,17 @@
 using ToolModiSAO.Common;
 using ToolModiSAO.Models;
 using System.Windows.Input;
-using ToolModiSAO.informazioneControl;
 using System.Windows;
+using ToolModiSAO.ServiceRepository;
+using GalaSoft.MvvmLight.CommandWpf;
 
 namespace ToolModiSAO.ModificaPersonaleControl
 {
     public class ModificaPersonaleViewModel : CommonBase
     {
-        private readonly Action<Personale> _onSalva;
+        private readonly IServiceRepository _serviceRepository;
 
         private Personale _personale;
-        private Attestati attestati;
-        private Action<Attestati> onSalvataggio;
-
         public Personale Personale
         {
             get => _personale;
@@ -23,31 +21,54 @@ namespace ToolModiSAO.ModificaPersonaleControl
 
         public ICommand SalvaCommand { get; }
         public ICommand AnnullaCommand { get; }
+        public ICommand EliminaCommand { get; }
 
-        public ModificaPersonaleViewModel(Personale personale, Action<Personale> onSalva)
+        public ModificaPersonaleViewModel(Personale personale, IServiceRepository serviceRepository)
         {
-            _onSalva = onSalva;
-            Personale = personale;
+            Personale = personale ?? throw new ArgumentNullException(nameof(personale));
+            _serviceRepository = serviceRepository ?? throw new ArgumentNullException(nameof(serviceRepository));
 
-            SalvaCommand = new RelayCommand<object>(_ => Salva());
-            AnnullaCommand = new RelayCommand<object>(_ => Annulla());
+            SalvaCommand = new RelayCommand(Salva);
+            AnnullaCommand = new RelayCommand(Annulla);
+            EliminaCommand = new RelayCommand(Elimina);
         }
 
-        public ModificaPersonaleViewModel(Attestati attestati, Action<Attestati> onSalvataggio)
+        private void Elimina()
         {
-            this.attestati = attestati;
-            this.onSalvataggio = onSalvataggio;
+            var esito = MessageBox.Show(
+                $"Eliminare {Personale.Cognome} {Personale.Nome}?",
+                "Conferma eliminazione",
+                MessageBoxButton.YesNo,
+                MessageBoxImage.Warning);
+
+            if (esito == MessageBoxResult.Yes)
+            {
+                _serviceRepository.EliminaPersonale(Personale); // ← non Personale.Id
+                ChiudiFinestra();
+            }
         }
 
         private void Salva()
         {
-            _onSalva(Personale);
-            Application.Current.Windows[Application.Current.Windows.Count - 1].Close();
+            _serviceRepository.AggiornaPersonale(Personale);
+            ChiudiFinestra();
         }
 
         private void Annulla()
         {
-            Application.Current.Windows[Application.Current.Windows.Count - 1].Close();
+            ChiudiFinestra();
+        }
+
+        private void ChiudiFinestra()
+        {
+            foreach (Window w in Application.Current.Windows)
+            {
+                if (w.DataContext == this)
+                {
+                    w.Close();
+                    break;
+                }
+            }
         }
     }
 }

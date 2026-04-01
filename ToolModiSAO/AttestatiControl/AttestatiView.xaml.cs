@@ -1,8 +1,5 @@
 ﻿using System.Windows;
 using ToolModiSAO.ServiceRepository;
-using ToolModiSAO.Services;        // ✅ DialogService
-using ToolModiSAO.ModificaAttestatiControl;
-using ToolModiSAO.ModificaAccountControl; // ✅ ModificaAttestatiViewModel e ModificaAttestatiView
 
 namespace ToolModiSAO.AttestatiControl
 {
@@ -11,7 +8,7 @@ namespace ToolModiSAO.AttestatiControl
         public AttestatiView()
         {
             InitializeComponent();
-            DataContext = new AttestatiViewModel(new Repository(), new DialogService());
+            DataContext = new AttestatiViewModel(new Repository());
         }
     }
 }

@@ -1,50 +1,62 @@
 ﻿<Window x:Class="ToolModiSAO.AttestatiControl.AttestatiView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Gestione Attestati" Height="500" Width="1400">
     <Grid Margin="10">
         <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <DataGrid Grid.Row="0"
+        <!-- Barra di ricerca -->
+        <Grid Grid.Row="0" Margin="0,0,0,8">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" Text="Cerca:" VerticalAlignment="Center" Margin="0,0,8,0"/>
+            <TextBox   Grid.Column="1"
+                       Text="{Binding TestoRicerca, UpdateSourceTrigger=PropertyChanged}">
+                <TextBox.InputBindings>
+                    <KeyBinding Key="Enter" Command="{Binding CercaCommand}"/>
+                </TextBox.InputBindings>
+            </TextBox>
+        </Grid>
+
+        <DataGrid Grid.Row="1"
                   ItemsSource="{Binding ListaAttestati}"
                   SelectedItem="{Binding AttesatoSelezionato}"
                   AutoGenerateColumns="False"
                   IsReadOnly="True"
                   CanUserAddRows="False">
-
             <DataGrid.InputBindings>
                 <MouseBinding MouseAction="LeftDoubleClick"
-                   Command="{Binding ApriModificaCommand}" />
+                              Command="{Binding ApriModificaCommand}" />
             </DataGrid.InputBindings>
-
             <DataGrid.Columns>
-                <DataGridTextColumn Header="ID"                  Binding="{Binding Id}"                          Width="50"/>
-                <DataGridTextColumn Header="Attivo"              Binding="{Binding Attivo}"                      Width="60"/>
-                <DataGridTextColumn Header="Matricola"           Binding="{Binding MatricolaDipendente}"         Width="100"/>
-                <DataGridTextColumn Header="Dipendente"          Binding="{Binding Dipendente}"                  Width="150"/>
-                <DataGridTextColumn Header="Titolo Corso"        Binding="{Binding TitoloCorso}"                 Width="180"/>
-                <DataGridTextColumn Header="Attività Formativa"  Binding="{Binding AttivitaFormativa}"           Width="130"/>
-                <DataGridTextColumn Header="Materia"             Binding="{Binding MateriaCorso}"                Width="120"/>
-                <DataGridTextColumn Header="Tipologia"           Binding="{Binding TipologiaCorso}"              Width="100"/>
-                <DataGridTextColumn Header="Ente Formatore"      Binding="{Binding EnteFormatore}"               Width="110"/>
-                <DataGridTextColumn Header="Denom. Formatore"    Binding="{Binding DenominazioneEnteFormatore}"  Width="150"/>
-                <DataGridTextColumn Header="Denom. Certificatore" Binding="{Binding DenominazioneEnteCertificatore}" Width="150"/>
-                <DataGridTextColumn Header="Inizio"              Binding="{Binding DataInizioCorso}"             Width="90"/>
-                <DataGridTextColumn Header="Fine"                Binding="{Binding DataFineCorso}"               Width="90"/>
-                <DataGridTextColumn Header="Anno"                Binding="{Binding AnnoCorso}"                   Width="60"/>
-                <DataGridTextColumn Header="Validità (anni)"     Binding="{Binding ValiditaAnni}"                Width="90"/>
-                <DataGridTextColumn Header="Scadenza"            Binding="{Binding DataScadenzaCorso}"           Width="90"/>
-                <DataGridTextColumn Header="Reparto"             Binding="{Binding Reparto}"                     Width="90"/>
-                <DataGridTextColumn Header="Sezione"             Binding="{Binding Sezione}"                     Width="90"/>
-                <DataGridTextColumn Header="Nucleo"              Binding="{Binding Nucleo}"                      Width="90"/>
-                <DataGridTextColumn Header="Ufficio"             Binding="{Binding CodUfficio}"                  Width="90"/>
-                <DataGridTextColumn Header="Note"                Binding="{Binding Note}"                        Width="150"/>
+                <DataGridTextColumn Header="ID"                   Binding="{Binding Id}"                              Width="50"/>
+                <DataGridTextColumn Header="Attivo"               Binding="{Binding Attivo}"                          Width="60"/>
+                <DataGridTextColumn Header="Matricola"            Binding="{Binding MatricolaDipendente}"             Width="100"/>
+                <DataGridTextColumn Header="Dipendente"           Binding="{Binding Dipendente}"                      Width="150"/>
+                <DataGridTextColumn Header="Titolo Corso"         Binding="{Binding TitoloCorso}"                     Width="180"/>
+                <DataGridTextColumn Header="Attività Formativa"   Binding="{Binding AttivitaFormativa}"               Width="130"/>
+                <DataGridTextColumn Header="Materia"              Binding="{Binding MateriaCorso}"                    Width="120"/>
+                <DataGridTextColumn Header="Tipologia"            Binding="{Binding TipologiaCorso}"                  Width="100"/>
+                <DataGridTextColumn Header="Ente Formatore"       Binding="{Binding EnteFormatore}"                   Width="110"/>
+                <DataGridTextColumn Header="Denom. Formatore"     Binding="{Binding DenominazioneEnteFormatore}"      Width="150"/>
+                <DataGridTextColumn Header="Denom. Certificatore" Binding="{Binding DenominazioneEnteCertificatore}"  Width="150"/>
+                <DataGridTextColumn Header="Inizio"               Binding="{Binding DataInizioCorso}"                 Width="90"/>
+                <DataGridTextColumn Header="Fine"                 Binding="{Binding DataFineCorso}"                   Width="90"/>
+                <DataGridTextColumn Header="Anno"                 Binding="{Binding AnnoCorso}"                       Width="60"/>
+                <DataGridTextColumn Header="Validità (anni)"      Binding="{Binding ValiditaAnni}"                    Width="90"/>
+                <DataGridTextColumn Header="Scadenza"             Binding="{Binding DataScadenzaCorso}"               Width="90"/>
+                <DataGridTextColumn Header="Reparto"              Binding="{Binding Reparto}"                         Width="90"/>
+                <DataGridTextColumn Header="Sezione"              Binding="{Binding Sezione}"                         Width="90"/>
+                <DataGridTextColumn Header="Nucleo"               Binding="{Binding Nucleo}"                          Width="90"/>
+                <DataGridTextColumn Header="Ufficio"              Binding="{Binding CodUfficio}"                      Width="90"/>
+                <DataGridTextColumn Header="Note"                 Binding="{Binding Note}"                            Width="150"/>
             </DataGrid.Columns>
         </DataGrid>
-
     </Grid>
 </Window>

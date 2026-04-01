@@ -1,18 +1,20 @@
 ﻿using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 using System.Windows.Input;
 using ToolModiSAO.Models;
 using ToolModiSAO.ServiceRepository;
-using ToolModiSAO.Services; // IDialogService custom
+using ToolModiSAO.ModificaPersonaleControl;
 
 namespace ToolModiSAO.PersonaleControl
 {
     public class PersonaleViewModel : ViewModelBase
     {
         private readonly IServiceRepository _repository;
-        private readonly IDialogService _dialogService;
+        private List<Personale> _tuttiPersonale = new List<Personale>();
 
         // ── Lista personale ──────────────────────────────────────────
         private ObservableCollection<Personale> _listaPersonale;
@@ -31,25 +33,33 @@ namespace ToolModiSAO.PersonaleControl
             {
                 _personaleSelezionato = value;
                 RaisePropertyChanged(nameof(PersonaleSelezionato));
-                // aggiorna lo stato abilitato del comando
                 ((RelayCommand)ApriModificaCommand).RaiseCanExecuteChanged();
             }
         }
 
-        // ── Comando doppio click ─────────────────────────────────────
-        public ICommand ApriModificaCommand { get; }
+        // ── Testo ricerca ────────────────────────────────────────────
+        private string _testoRicerca;
+        public string TestoRicerca
+        {
+            get => _testoRicerca;
+            set { _testoRicerca = value; RaisePropertyChanged(nameof(TestoRicerca)); }
+        }
 
-        // ── Costruttore unico ────────────────────────────────────────
-        public PersonaleViewModel(IServiceRepository repository, IDialogService dialogService)
+        // ── Comandi ──────────────────────────────────────────────────
+        public ICommand ApriModificaCommand { get; }
+        public ICommand CercaCommand { get; }
+
+        // ── Costruttore ──────────────────────────────────────────────
+        public PersonaleViewModel(IServiceRepository repository)
         {
             _repository = repository ?? throw new ArgumentNullException(nameof(repository));
-            _dialogService = dialogService ?? throw new ArgumentNullException(nameof(dialogService));
 
-            // RelayCommand MvvmLight: primo param = execute, secondo = canExecute
             ApriModificaCommand = new RelayCommand(
                 execute: EseguiApriModifica,
                 canExecute: () => PersonaleSelezionato != null
             );
+
+            CercaCommand = new RelayCommand(EseguiRicerca);
 
             RicaricaPersonale();
         }
@@ -58,20 +68,43 @@ namespace ToolModiSAO.PersonaleControl
         public void RicaricaPersonale()
         {
             var lista = _repository.GetAllPersonale();
-            ListaPersonale = lista != null
-                ? new ObservableCollection<Personale>(lista)
-                : new ObservableCollection<Personale>();
+            _tuttiPersonale = lista ?? new List<Personale>();
+            ListaPersonale = new ObservableCollection<Personale>(_tuttiPersonale);
+            TestoRicerca = string.Empty;
+        }
+
+        private void EseguiRicerca()
+        {
+            if (string.IsNullOrWhiteSpace(TestoRicerca))
+            {
+                ListaPersonale = new ObservableCollection<Personale>(_tuttiPersonale);
+                return;
+            }
+
+            var filtro = TestoRicerca.ToLower();
+            var risultati = _tuttiPersonale.Where(p =>
+                (p.Cognome?.ToLower().Contains(filtro) ?? false) ||
+                (p.Nome?.ToLower().Contains(filtro) ?? false) ||
+                (p.Matricola?.ToLower().Contains(filtro) ?? false) ||
+                (p.GradoQualifica?.ToLower().Contains(filtro) ?? false) ||
+                (p.Incarico?.ToLower().Contains(filtro) ?? false) ||
+                (p.CodReparto?.ToLower().Contains(filtro) ?? false) ||
+                (p.CodSezione?.ToLower().Contains(filtro) ?? false) ||
+                (p.CodNucleo?.ToLower().Contains(filtro) ?? false) ||
+                (p.CodUfficio?.ToLower().Contains(filtro) ?? false) ||
+                (p.StatoServizio?.ToLower().Contains(filtro) ?? false)
+            );
+
+            ListaPersonale = new ObservableCollection<Personale>(risultati);
         }
 
         private void EseguiApriModifica()
         {
             if (PersonaleSelezionato == null) return;
-
-            _dialogService.ApriModificaPersonale(PersonaleSelezionato, aggiornato =>
-            {
-                _repository.AggiornaPersonale(aggiornato);
-                RicaricaPersonale();
-            });
+            var vm = new ModificaPersonaleViewModel(PersonaleSelezionato, _repository);
+            var view = new ModificaPersonaleView { DataContext = vm };
+            view.ShowDialog();
+            RicaricaPersonale();
         }
     }
 }

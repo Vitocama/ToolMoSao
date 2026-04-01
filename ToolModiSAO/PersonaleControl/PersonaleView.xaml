@@ -5,22 +5,37 @@
         Title="Gestione Personale" Height="450" Width="1000">
     <Grid Margin="10">
         <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <DataGrid Grid.Row="0"
+        <!-- Barra di ricerca -->
+        <Grid Grid.Row="0" Margin="0,0,0,8">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" Text="Cerca:" VerticalAlignment="Center" Margin="0,0,8,0"/>
+            <TextBox   Grid.Column="1"
+                       Text="{Binding TestoRicerca, UpdateSourceTrigger=PropertyChanged}">
+                <TextBox.InputBindings>
+                    <KeyBinding Key="Enter" Command="{Binding CercaCommand}"/>
+                </TextBox.InputBindings>
+            </TextBox>
+        </Grid>
+
+        <DataGrid Grid.Row="1"
                   ItemsSource="{Binding ListaPersonale}"
                   SelectedItem="{Binding PersonaleSelezionato}"
                   AutoGenerateColumns="False"
                   IsReadOnly="True"
                   CanUserAddRows="False">
-
-            <DataGrid.InputBindings>
-                <MouseBinding MouseAction="LeftDoubleClick"
-                              Command="{Binding ApriModificaCommand}" />
-            </DataGrid.InputBindings>
-
+            <DataGrid.RowStyle>
+                <Style TargetType="DataGridRow">
+                    <EventSetter Event="MouseDoubleClick" Handler="Row_DoubleClick"/>
+                </Style>
+            </DataGrid.RowStyle>
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ID"                Binding="{Binding Id}"               Width="60"/>
                 <DataGridTextColumn Header="Grado/Qualifica"   Binding="{Binding GradoQualifica}"   Width="150"/>
@@ -39,6 +54,5 @@
                 <DataGridTextColumn Header="Attivo"            Binding="{Binding Attivo}"           Width="80"/>
             </DataGrid.Columns>
         </DataGrid>
-
     </Grid>
 </Window>

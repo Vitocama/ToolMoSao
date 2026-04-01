@@ -36,21 +36,21 @@
                 <!-- riga 0 -->
                 <TextBlock Grid.Row="0" Grid.Column="0" Text="ID"
                            Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
+                           VerticalAlignment="Center" Margin="10,6,10,6"/>
                 <TextBox   Grid.Row="0" Grid.Column="1"
                            Text="{Binding Account.Id}"
                            IsReadOnly="True" Background="#F0F0F0" Margin="0,4,10,4"/>
 
                 <TextBlock Grid.Row="0" Grid.Column="2" Text="Utente"
                            Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
+                           VerticalAlignment="Center" Margin="10,6,10,6"/>
                 <TextBox   Grid.Row="0" Grid.Column="3"
                            Text="{Binding Account.Utente, UpdateSourceTrigger=PropertyChanged}"
                            Margin="0,4,10,4"/>
 
                 <TextBlock Grid.Row="0" Grid.Column="4" Text="Ruolo"
                            Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
+                           VerticalAlignment="Center" Margin="10,6,10,6"/>
                 <TextBox   Grid.Row="0" Grid.Column="5"
                            Text="{Binding Account.Ruolo, UpdateSourceTrigger=PropertyChanged}"
                            Margin="0,4"/>
@@ -58,21 +58,21 @@
                 <!-- riga 1 -->
                 <TextBlock Grid.Row="1" Grid.Column="0" Text="Cognome"
                            Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
+                           VerticalAlignment="Center" Margin="10,6,10,6"/>
                 <TextBox   Grid.Row="1" Grid.Column="1"
                            Text="{Binding Account.Cognome, UpdateSourceTrigger=PropertyChanged}"
                            Margin="0,4,10,4"/>
 
                 <TextBlock Grid.Row="1" Grid.Column="2" Text="Nome"
                            Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
+                           VerticalAlignment="Center" Margin="10,6,10,6"/>
                 <TextBox   Grid.Row="1" Grid.Column="3"
                            Text="{Binding Account.Nome, UpdateSourceTrigger=PropertyChanged}"
                            Margin="0,4,10,4"/>
 
                 <TextBlock Grid.Row="1" Grid.Column="4" Text="Matricola"
                            Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
+                           VerticalAlignment="Center" Margin="10,6,10,6"/>
                 <TextBox   Grid.Row="1" Grid.Column="5"
                            Text="{Binding Account.Matricola, UpdateSourceTrigger=PropertyChanged}"
                            Margin="0,4"/>
@@ -80,21 +80,21 @@
                 <!-- riga 2 -->
                 <TextBlock Grid.Row="2" Grid.Column="0" Text="Incarico"
                            Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
+                           VerticalAlignment="Center" Margin="10,6,10,6"/>
                 <TextBox   Grid.Row="2" Grid.Column="1"
                            Text="{Binding Account.Incarico, UpdateSourceTrigger=PropertyChanged}"
                            Margin="0,4,10,4"/>
 
                 <TextBlock Grid.Row="2" Grid.Column="2" Text="Amministratore"
                            Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
+                           VerticalAlignment="Center" Margin="10,6,10,6"/>
                 <TextBox   Grid.Row="2" Grid.Column="3"
                            Text="{Binding Account.Amministratore, UpdateSourceTrigger=PropertyChanged}"
                            Margin="0,4,10,4"/>
 
                 <TextBlock Grid.Row="2" Grid.Column="4" Text="Consultazione"
                            Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
+                           VerticalAlignment="Center" Margin="10,6,10,6"/>
                 <TextBox   Grid.Row="2" Grid.Column="5"
                            Text="{Binding Account.Consultazione, UpdateSourceTrigger=PropertyChanged}"
                            Margin="0,4"/>
@@ -102,21 +102,21 @@
                 <!-- riga 3 -->
                 <TextBlock Grid.Row="3" Grid.Column="0" Text="UUOO"
                            Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
+                           VerticalAlignment="Center" Margin="10,6,10,6"/>
                 <TextBox   Grid.Row="3" Grid.Column="1"
                            Text="{Binding Account.Uuoo, UpdateSourceTrigger=PropertyChanged}"
                            Margin="0,4,10,4"/>
 
                 <TextBlock Grid.Row="3" Grid.Column="2" Text="Reparto"
                            Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
+                           VerticalAlignment="Center" Margin="10,6,10,6"/>
                 <TextBox   Grid.Row="3" Grid.Column="3"
                            Text="{Binding Account.Reparto, UpdateSourceTrigger=PropertyChanged}"
                            Margin="0,4,10,4"/>
 
                 <TextBlock Grid.Row="3" Grid.Column="4" Text="Sezione"
                            Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
+                           VerticalAlignment="Center" Margin="10,6,10,6"/>
                 <TextBox   Grid.Row="3" Grid.Column="5"
                            Text="{Binding Account.Sezione, UpdateSourceTrigger=PropertyChanged}"
                            Margin="0,4"/>
@@ -124,7 +124,7 @@
                 <!-- riga 4 -->
                 <TextBlock Grid.Row="4" Grid.Column="0" Text="Nucleo"
                            Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
+                           VerticalAlignment="Center" Margin="10,6,10,6"/>
                 <TextBox   Grid.Row="4" Grid.Column="1"
                            Text="{Binding Account.Nucleo, UpdateSourceTrigger=PropertyChanged}"
                            Margin="0,4,10,4"/>
@@ -132,24 +132,39 @@
         </ScrollViewer>
 
         <!-- Pulsanti -->
-        <StackPanel Grid.Row="1" Orientation="Horizontal"
-            HorizontalAlignment="Right" Margin="0,10,0,0">
-            <Button Content="📋 Cod. UUOO"
-            Command="{Binding ApriCodUUooCommand}"
+        <!-- Pulsanti -->
+        <Grid Grid.Row="1" Margin="0,10,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Elimina a sinistra -->
+            <Button Grid.Column="0" Content="🗑 Elimina"
+            Command="{Binding EliminaCommand}"
             Style="{DynamicResource NavyButtonStyle}"
-            Width="180" Margin="0,0,10,0"/>
-            <Button Content="🔑 Reset Password"
-            Command="{Binding ResetPasswordCommand}"
-            Style="{DynamicResource NavyButtonStyle}"
-            Width="150" Margin="0,0,10,0"/>
-            <Button Content="Salva"
-            Command="{Binding SalvaCommand}"
-            Style="{DynamicResource NavyButtonStyle}"
-            Width="90" Margin="0,0,10,0"/>
-            <Button Content="Annulla"
-            Command="{Binding AnnullaCommand}"
-            Style="{DynamicResource NavyButtonStyle}"
-            Width="90"/>
-        </StackPanel>
+            Background="Red"
+            Width="120" HorizontalAlignment="Left"/>
+
+            <!-- Altri pulsanti a destra -->
+            <StackPanel Grid.Column="1" Orientation="Horizontal">
+                <Button Content="📋 Cod. UUOO"
+                Command="{Binding ApriCodUUooCommand}"
+                Style="{DynamicResource NavyButtonStyle}"
+                Width="180" Margin="0,0,10,0"/>
+                <Button Content="🔑 Reset Password"
+                Command="{Binding ResetPasswordCommand}"
+                Style="{DynamicResource NavyButtonStyle}"
+                Width="150" Margin="0,0,10,0"/>
+                <Button Content="Salva"
+                Command="{Binding SalvaCommand}"
+                Style="{DynamicResource NavyButtonStyle}"
+                Width="90" Margin="0,0,10,0"/>
+                <Button Content="Annulla"
+                Command="{Binding AnnullaCommand}"
+                Style="{DynamicResource NavyButtonStyle}"
+                Width="90"/>
+            </StackPanel>
+        </Grid>
     </Grid>
 </Window>

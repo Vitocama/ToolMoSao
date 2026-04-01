@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="Modifica Attestato" Height="620" Width="900"
+        Title="Modifica Attestato" Height="820" Width="600"
         WindowStartupLocation="CenterScreen">
 
     <Grid Margin="20" Style="{StaticResource TotaleSfondo}">
@@ -13,14 +13,12 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <ScrollViewer Grid.Row="0" VerticalScrollBarVisibility="Auto">
-            <Grid>
+        <ScrollViewer Grid.Row="0"
+                      VerticalScrollBarVisibility="Auto"
+                      HorizontalScrollBarVisibility="Disabled">
+            <Grid HorizontalAlignment="Stretch">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="160"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="160"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="160"/>
+                    <ColumnDefinition Width="150"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
@@ -32,190 +30,230 @@
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
 
-                <!-- riga 0 -->
+                <!-- ID -->
                 <TextBlock Grid.Row="0" Grid.Column="0" Text="ID"
                            Style="{DynamicResource WhiteBoldText}"
                            VerticalAlignment="Center" Margin="0,6,10,6"/>
                 <TextBox   Grid.Row="0" Grid.Column="1"
                            Text="{Binding Attestato.Id}"
-                           IsReadOnly="True" Background="#F0F0F0" Margin="0,4,10,4"/>
+                           IsReadOnly="True" Background="#F0F0F0"
+                           HorizontalAlignment="Stretch" Margin="0,4"/>
 
-                <TextBlock Grid.Row="0" Grid.Column="2" Text="Attivo"
-                           Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
-                <TextBox   Grid.Row="0" Grid.Column="3"
-                           Text="{Binding Attestato.Attivo, UpdateSourceTrigger=PropertyChanged}"
-                           Margin="0,4,10,4"/>
-
-                <TextBlock Grid.Row="0" Grid.Column="4" Text="Matricola"
-                           Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
-                <TextBox   Grid.Row="0" Grid.Column="5"
-                           Text="{Binding Attestato.MatricolaDipendente, UpdateSourceTrigger=PropertyChanged}"
-                           Margin="0,4"/>
-
-                <!-- riga 1 -->
-                <TextBlock Grid.Row="1" Grid.Column="0" Text="Dipendente"
+                <!-- Attivo -->
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="Attivo"
                            Style="{DynamicResource WhiteBoldText}"
                            VerticalAlignment="Center" Margin="0,6,10,6"/>
                 <TextBox   Grid.Row="1" Grid.Column="1"
-                           Text="{Binding Attestato.Dipendente, UpdateSourceTrigger=PropertyChanged}"
-                           Margin="0,4,10,4"/>
+                           Text="{Binding Attestato.Attivo, UpdateSourceTrigger=PropertyChanged}"
+                           HorizontalAlignment="Stretch" Margin="0,4"/>
 
-                <TextBlock Grid.Row="1" Grid.Column="2" Text="Titolo Corso"
-                           Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
-                <TextBox   Grid.Row="1" Grid.Column="3"
-                           Text="{Binding Attestato.TitoloCorso, UpdateSourceTrigger=PropertyChanged}"
-                           Margin="0,4,10,4"/>
-
-                <TextBlock Grid.Row="1" Grid.Column="4" Text="Attività Formativa"
-                           Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
-                <TextBox   Grid.Row="1" Grid.Column="5"
-                           Text="{Binding Attestato.AttivitaFormativa, UpdateSourceTrigger=PropertyChanged}"
-                           Margin="0,4"/>
-
-                <!-- riga 2 -->
-                <TextBlock Grid.Row="2" Grid.Column="0" Text="Materia Corso"
+                <!-- Matricola -->
+                <TextBlock Grid.Row="2" Grid.Column="0" Text="Matricola"
                            Style="{DynamicResource WhiteBoldText}"
                            VerticalAlignment="Center" Margin="0,6,10,6"/>
                 <TextBox   Grid.Row="2" Grid.Column="1"
-                           Text="{Binding Attestato.MateriaCorso, UpdateSourceTrigger=PropertyChanged}"
-                           Margin="0,4,10,4"/>
+                           Text="{Binding Attestato.MatricolaDipendente, UpdateSourceTrigger=PropertyChanged}"
+                           HorizontalAlignment="Stretch" Margin="0,4"/>
 
-                <TextBlock Grid.Row="2" Grid.Column="2" Text="Tipologia Corso"
-                           Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
-                <TextBox   Grid.Row="2" Grid.Column="3"
-                           Text="{Binding Attestato.TipologiaCorso, UpdateSourceTrigger=PropertyChanged}"
-                           Margin="0,4,10,4"/>
-
-                <TextBlock Grid.Row="2" Grid.Column="4" Text="Ente Formatore"
-                           Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
-                <TextBox   Grid.Row="2" Grid.Column="5"
-                           Text="{Binding Attestato.EnteFormatore, UpdateSourceTrigger=PropertyChanged}"
-                           Margin="0,4"/>
-
-                <!-- riga 3 -->
-                <TextBlock Grid.Row="3" Grid.Column="0" Text="Denom. Formatore"
+                <!-- Dipendente -->
+                <TextBlock Grid.Row="3" Grid.Column="0" Text="Dipendente"
                            Style="{DynamicResource WhiteBoldText}"
                            VerticalAlignment="Center" Margin="0,6,10,6"/>
                 <TextBox   Grid.Row="3" Grid.Column="1"
-                           Text="{Binding Attestato.DenominazioneEnteFormatore, UpdateSourceTrigger=PropertyChanged}"
-                           Margin="0,4,10,4"/>
+                           Text="{Binding Attestato.Dipendente, UpdateSourceTrigger=PropertyChanged}"
+                           HorizontalAlignment="Stretch" Margin="0,4"/>
 
-                <TextBlock Grid.Row="3" Grid.Column="2" Text="Denom. Certificatore"
-                           Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
-                <TextBox   Grid.Row="3" Grid.Column="3"
-                           Text="{Binding Attestato.DenominazioneEnteCertificatore, UpdateSourceTrigger=PropertyChanged}"
-                           Margin="0,4,10,4"/>
-
-                <TextBlock Grid.Row="3" Grid.Column="4" Text="Data Inizio"
-                           Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
-                <TextBox   Grid.Row="3" Grid.Column="5"
-                           Text="{Binding Attestato.DataInizioCorso, UpdateSourceTrigger=PropertyChanged}"
-                           Margin="0,4"/>
-
-                <!-- riga 4 -->
-                <TextBlock Grid.Row="4" Grid.Column="0" Text="Data Fine"
+                <!-- Titolo Corso -->
+                <TextBlock Grid.Row="4" Grid.Column="0" Text="Titolo Corso"
                            Style="{DynamicResource WhiteBoldText}"
                            VerticalAlignment="Center" Margin="0,6,10,6"/>
                 <TextBox   Grid.Row="4" Grid.Column="1"
-                           Text="{Binding Attestato.DataFineCorso, UpdateSourceTrigger=PropertyChanged}"
-                           Margin="0,4,10,4"/>
+                           Text="{Binding Attestato.TitoloCorso, UpdateSourceTrigger=PropertyChanged}"
+                           HorizontalAlignment="Stretch" Margin="0,4"/>
 
-                <TextBlock Grid.Row="4" Grid.Column="2" Text="Data Normalizzata"
-                           Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
-                <TextBox   Grid.Row="4" Grid.Column="3"
-                           Text="{Binding Attestato.DataNormalizzata, UpdateSourceTrigger=PropertyChanged}"
-                           Margin="0,4,10,4"/>
-
-                <TextBlock Grid.Row="4" Grid.Column="4" Text="Anno Corso"
-                           Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
-                <TextBox   Grid.Row="4" Grid.Column="5"
-                           Text="{Binding Attestato.AnnoCorso, UpdateSourceTrigger=PropertyChanged}"
-                           Margin="0,4"/>
-
-                <!-- riga 5 -->
-                <TextBlock Grid.Row="5" Grid.Column="0" Text="Validità (anni)"
+                <!-- Attività Formativa -->
+                <TextBlock Grid.Row="5" Grid.Column="0" Text="Attività Formativa"
                            Style="{DynamicResource WhiteBoldText}"
                            VerticalAlignment="Center" Margin="0,6,10,6"/>
                 <TextBox   Grid.Row="5" Grid.Column="1"
-                           Text="{Binding Attestato.ValiditaAnni, UpdateSourceTrigger=PropertyChanged}"
-                           Margin="0,4,10,4"/>
+                           Text="{Binding Attestato.AttivitaFormativa, UpdateSourceTrigger=PropertyChanged}"
+                           HorizontalAlignment="Stretch" Margin="0,4"/>
 
-                <TextBlock Grid.Row="5" Grid.Column="2" Text="Data Scadenza"
-                           Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
-                <TextBox   Grid.Row="5" Grid.Column="3"
-                           Text="{Binding Attestato.DataScadenzaCorso, UpdateSourceTrigger=PropertyChanged}"
-                           Margin="0,4,10,4"/>
-
-                <TextBlock Grid.Row="5" Grid.Column="4" Text="Link Attestato"
-                           Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
-                <TextBox   Grid.Row="5" Grid.Column="5"
-                           Text="{Binding Attestato.LinkAttestato, UpdateSourceTrigger=PropertyChanged}"
-                           Margin="0,4"/>
-
-                <!-- riga 6 -->
-                <TextBlock Grid.Row="6" Grid.Column="0" Text="Reparto"
+                <!-- Materia Corso -->
+                <TextBlock Grid.Row="6" Grid.Column="0" Text="Materia Corso"
                            Style="{DynamicResource WhiteBoldText}"
                            VerticalAlignment="Center" Margin="0,6,10,6"/>
                 <TextBox   Grid.Row="6" Grid.Column="1"
-                           Text="{Binding Attestato.Reparto, UpdateSourceTrigger=PropertyChanged}"
-                           Margin="0,4,10,4"/>
+                           Text="{Binding Attestato.MateriaCorso, UpdateSourceTrigger=PropertyChanged}"
+                           HorizontalAlignment="Stretch" Margin="0,4"/>
 
-                <TextBlock Grid.Row="6" Grid.Column="2" Text="Sezione"
-                           Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
-                <TextBox   Grid.Row="6" Grid.Column="3"
-                           Text="{Binding Attestato.Sezione, UpdateSourceTrigger=PropertyChanged}"
-                           Margin="0,4,10,4"/>
-
-                <TextBlock Grid.Row="6" Grid.Column="4" Text="Nucleo"
-                           Style="{DynamicResource WhiteBoldText}"
-                           VerticalAlignment="Center" Margin="0,6,10,6"/>
-                <TextBox   Grid.Row="6" Grid.Column="5"
-                           Text="{Binding Attestato.Nucleo, UpdateSourceTrigger=PropertyChanged}"
-                           Margin="0,4"/>
-
-                <!-- riga 7 — Cod Ufficio e Note su tutta la larghezza -->
-                <TextBlock Grid.Row="7" Grid.Column="0" Text="Cod. Ufficio"
+                <!-- Tipologia Corso -->
+                <TextBlock Grid.Row="7" Grid.Column="0" Text="Tipologia Corso"
                            Style="{DynamicResource WhiteBoldText}"
                            VerticalAlignment="Center" Margin="0,6,10,6"/>
                 <TextBox   Grid.Row="7" Grid.Column="1"
-                           Text="{Binding Attestato.CodUfficio, UpdateSourceTrigger=PropertyChanged}"
-                           Margin="0,4,10,4"/>
+                           Text="{Binding Attestato.TipologiaCorso, UpdateSourceTrigger=PropertyChanged}"
+                           HorizontalAlignment="Stretch" Margin="0,4"/>
 
-                <TextBlock Grid.Row="7" Grid.Column="2" Text="Note"
+                <!-- Ente Formatore -->
+                <TextBlock Grid.Row="8" Grid.Column="0" Text="Ente Formatore"
                            Style="{DynamicResource WhiteBoldText}"
                            VerticalAlignment="Center" Margin="0,6,10,6"/>
-                <TextBox   Grid.Row="7" Grid.Column="3" Grid.ColumnSpan="3"
+                <TextBox   Grid.Row="8" Grid.Column="1"
+                           Text="{Binding Attestato.EnteFormatore, UpdateSourceTrigger=PropertyChanged}"
+                           HorizontalAlignment="Stretch" Margin="0,4"/>
+
+                <!-- Denom. Formatore -->
+                <TextBlock Grid.Row="9" Grid.Column="0" Text="Denom. Formatore"
+                           Style="{DynamicResource WhiteBoldText}"
+                           VerticalAlignment="Center" Margin="0,6,10,6"/>
+                <TextBox   Grid.Row="9" Grid.Column="1"
+                           Text="{Binding Attestato.DenominazioneEnteFormatore, UpdateSourceTrigger=PropertyChanged}"
+                           HorizontalAlignment="Stretch" Margin="0,4"/>
+
+                <!-- Denom. Certificatore -->
+                <TextBlock Grid.Row="10" Grid.Column="0" Text="Denom. Certificatore"
+                           Style="{DynamicResource WhiteBoldText}"
+                           VerticalAlignment="Center" Margin="0,6,10,6"/>
+                <TextBox   Grid.Row="10" Grid.Column="1"
+                           Text="{Binding Attestato.DenominazioneEnteCertificatore, UpdateSourceTrigger=PropertyChanged}"
+                           HorizontalAlignment="Stretch" Margin="0,4"/>
+
+                <!-- Data Inizio -->
+                <TextBlock Grid.Row="11" Grid.Column="0" Text="Data Inizio"
+                           Style="{DynamicResource WhiteBoldText}"
+                           VerticalAlignment="Center" Margin="0,6,10,6"/>
+                <TextBox   Grid.Row="11" Grid.Column="1"
+                           Text="{Binding Attestato.DataInizioCorso, UpdateSourceTrigger=PropertyChanged}"
+                           HorizontalAlignment="Stretch" Margin="0,4"/>
+
+                <!-- Data Fine -->
+                <TextBlock Grid.Row="12" Grid.Column="0" Text="Data Fine"
+                           Style="{DynamicResource WhiteBoldText}"
+                           VerticalAlignment="Center" Margin="0,6,10,6"/>
+                <TextBox   Grid.Row="12" Grid.Column="1"
+                           Text="{Binding Attestato.DataFineCorso, UpdateSourceTrigger=PropertyChanged}"
+                           HorizontalAlignment="Stretch" Margin="0,4"/>
+
+                <!-- Data Normalizzata -->
+                <TextBlock Grid.Row="13" Grid.Column="0" Text="Data Normalizzata"
+                           Style="{DynamicResource WhiteBoldText}"
+                           VerticalAlignment="Center" Margin="0,6,10,6"/>
+                <TextBox   Grid.Row="13" Grid.Column="1"
+                           Text="{Binding Attestato.DataNormalizzata, UpdateSourceTrigger=PropertyChanged}"
+                           HorizontalAlignment="Stretch" Margin="0,4"/>
+
+                <!-- Anno Corso -->
+                <TextBlock Grid.Row="14" Grid.Column="0" Text="Anno Corso"
+                           Style="{DynamicResource WhiteBoldText}"
+                           VerticalAlignment="Center" Margin="0,6,10,6"/>
+                <TextBox   Grid.Row="14" Grid.Column="1"
+                           Text="{Binding Attestato.AnnoCorso, UpdateSourceTrigger=PropertyChanged}"
+                           HorizontalAlignment="Stretch" Margin="0,4"/>
+
+                <!-- Validità (anni) -->
+                <TextBlock Grid.Row="15" Grid.Column="0" Text="Validità (anni)"
+                           Style="{DynamicResource WhiteBoldText}"
+                           VerticalAlignment="Center" Margin="0,6,10,6"/>
+                <TextBox   Grid.Row="15" Grid.Column="1"
+                           Text="{Binding Attestato.ValiditaAnni, UpdateSourceTrigger=PropertyChanged}"
+                           HorizontalAlignment="Stretch" Margin="0,4"/>
+
+                <!-- Data Scadenza -->
+                <TextBlock Grid.Row="16" Grid.Column="0" Text="Data Scadenza"
+                           Style="{DynamicResource WhiteBoldText}"
+                           VerticalAlignment="Center" Margin="0,6,10,6"/>
+                <TextBox   Grid.Row="16" Grid.Column="1"
+                           Text="{Binding Attestato.DataScadenzaCorso, UpdateSourceTrigger=PropertyChanged}"
+                           HorizontalAlignment="Stretch" Margin="0,4"/>
+
+                <!-- Link Attestato -->
+                <TextBlock Grid.Row="17" Grid.Column="0" Text="Link Attestato"
+                           Style="{DynamicResource WhiteBoldText}"
+                           VerticalAlignment="Center" Margin="0,6,10,6"/>
+                <TextBox   Grid.Row="17" Grid.Column="1"
+                           Text="{Binding Attestato.LinkAttestato, UpdateSourceTrigger=PropertyChanged}"
+                           HorizontalAlignment="Stretch" Margin="0,4"/>
+
+                <!-- Reparto -->
+                <TextBlock Grid.Row="18" Grid.Column="0" Text="Reparto"
+                           Style="{DynamicResource WhiteBoldText}"
+                           VerticalAlignment="Center" Margin="0,6,10,6"/>
+                <TextBox   Grid.Row="18" Grid.Column="1"
+                           Text="{Binding Attestato.Reparto, UpdateSourceTrigger=PropertyChanged}"
+                           HorizontalAlignment="Stretch" Margin="0,4"/>
+
+                <!-- Sezione -->
+                <TextBlock Grid.Row="19" Grid.Column="0" Text="Sezione"
+                           Style="{DynamicResource WhiteBoldText}"
+                           VerticalAlignment="Center" Margin="0,6,10,6"/>
+                <TextBox   Grid.Row="19" Grid.Column="1"
+                           Text="{Binding Attestato.Sezione, UpdateSourceTrigger=PropertyChanged}"
+                           HorizontalAlignment="Stretch" Margin="0,4"/>
+
+                <!-- Nucleo -->
+                <TextBlock Grid.Row="20" Grid.Column="0" Text="Nucleo"
+                           Style="{DynamicResource WhiteBoldText}"
+                           VerticalAlignment="Center" Margin="0,6,10,6"/>
+                <TextBox   Grid.Row="20" Grid.Column="1"
+                           Text="{Binding Attestato.Nucleo, UpdateSourceTrigger=PropertyChanged}"
+                           HorizontalAlignment="Stretch" Margin="0,4"/>
+
+                <!-- Cod. Ufficio -->
+                <TextBlock Grid.Row="21" Grid.Column="0" Text="Cod. Ufficio"
+                           Style="{DynamicResource WhiteBoldText}"
+                           VerticalAlignment="Center" Margin="0,6,10,6"/>
+                <TextBox   Grid.Row="21" Grid.Column="1"
+                           Text="{Binding Attestato.CodUfficio, UpdateSourceTrigger=PropertyChanged}"
+                           HorizontalAlignment="Stretch" Margin="0,4"/>
+
+                <!-- Note -->
+                <TextBlock Grid.Row="22" Grid.Column="0" Text="Note"
+                           Style="{DynamicResource WhiteBoldText}"
+                           VerticalAlignment="Top" Margin="0,10,10,6"/>
+                <TextBox   Grid.Row="22" Grid.Column="1"
                            Text="{Binding Attestato.Note, UpdateSourceTrigger=PropertyChanged}"
                            Height="60" TextWrapping="Wrap" AcceptsReturn="True"
-                           VerticalScrollBarVisibility="Auto" Margin="0,4"/>
+                           VerticalScrollBarVisibility="Auto"
+                           HorizontalAlignment="Stretch" Margin="0,4"/>
 
             </Grid>
         </ScrollViewer>
 
         <!-- Pulsanti -->
-        <StackPanel Grid.Row="1" Orientation="Horizontal"
-                    HorizontalAlignment="Right" Margin="0,10,0,0">
-            <Button Content="Salva"   Command="{Binding SalvaCommand}"
-                    Style="{DynamicResource NavyButtonStyle}"
-                    Width="90" Margin="0,0,10,0"/>
-            <Button Content="Annulla" Command="{Binding AnnullaCommand}"
-                    Style="{DynamicResource NavyButtonStyle}"
-                    Width="90"/>
-        </StackPanel>
+        <Grid Grid.Row="1" Margin="0,10,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="0" Content="Annulla" Command="{Binding AnnullaCommand}"
+                    Style="{StaticResource NavyButtonStyle}" HorizontalAlignment="Left" Width="150"/>
+
+            <Button Grid.Column="1" Content="Elimina" Command="{Binding EliminaCommand}"
+                    Style="{DynamicResource NavyButtonStyle}" Background="Red"
+                    HorizontalAlignment="Center" Width="150"/>
+
+            <Button Grid.Column="2" Content="Salva" Command="{Binding SalvaCommand}"
+                    Style="{StaticResource NavyButtonStyle}" HorizontalAlignment="Right" Width="150"/>
+        </Grid>
     </Grid>
 </Window>

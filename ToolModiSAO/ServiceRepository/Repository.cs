@@ -12,14 +12,12 @@ namespace ToolModiSAO.ServiceRepository
             var db = new tblContext();
             return db.Personale.ToList();
         }
-
         public void AggiornaPersonale(Personale personale)
         {
             var db = new tblContext();
             db.Personale.Update(personale);
             db.SaveChanges();
         }
-
         public void EliminaPersonale(Personale personale)
         {
             var db = new tblContext();
@@ -28,26 +26,26 @@ namespace ToolModiSAO.ServiceRepository
         }
         #endregion
 
-        #region Attestati
-        public List<Attestati> GetAllAttestati()
-        {
-            var db = new tblContext();
-            return db.Attestati.OrderBy(x => x.Dipendente).ToList();
-        }
-
-        public void AggiornaAttestati(Attestati attestato)
-        {
-            var db = new tblContext();
-            db.Attestati.Update(attestato);
-            db.SaveChanges();
-        }
-
         public void EliminaAttestati(Attestati attestato)
         {
             var db = new tblContext();
             db.Attestati.Remove(attestato);
             db.SaveChanges();
         }
+
+        #region Attestati
+        public List<Attestati> GetAllAttestati()
+        {
+            var db = new tblContext();
+            return db.Attestati.OrderBy(x => x.Dipendente).ToList();
+        }
+        public void AggiornaAttestati(Attestati attestato)
+        {
+            var db = new tblContext();
+            db.Attestati.Update(attestato);
+            db.SaveChanges();
+        }
+       
         #endregion
 
         #region Account
@@ -56,14 +54,12 @@ namespace ToolModiSAO.ServiceRepository
             var db = new tblContext();
             return db.AccountUtenti.OrderBy(x => x.Cognome).ToList();
         }
-
         public void AggiornaAccount(AccountUtenti account)
         {
             var db = new tblContext();
             db.AccountUtenti.Update(account);
             db.SaveChanges();
         }
-
         public void EliminaAccount(AccountUtenti account)
         {
             var db = new tblContext();

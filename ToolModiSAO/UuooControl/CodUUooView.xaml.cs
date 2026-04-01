@@ -3,9 +3,9 @@ using ToolModiSAO.UuooControl;
 
 namespace ToolModiSAO.UuooControl
 {
-    public partial class UuooView : Window
+    public partial class CodUUooView : Window
     {
-        public UuooView()
+        public CodUUooView()
         {
             InitializeComponent();
             DataContext = new UuooViewModel();

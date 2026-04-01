@@ -75,56 +75,36 @@ namespace ToolModiSAO.Models
 
             modelBuilder.Entity<Attestati>(entity =>
             {
-                entity.HasNoKey();
+                entity.HasKey(e => e.Id); // ← era HasNoKey()
 
                 entity.ToTable("ATTESTATI");
 
-                entity.Property(e => e.AnnoCorso).HasColumnName("ANNO_CORSO");
-
-                entity.Property(e => e.AttivitaFormativa).HasColumnName("ATTIVITA_FORMATIVA");
-
-                entity.Property(e => e.Attivo).HasColumnName("ATTIVO");
-
-                entity.Property(e => e.CodUfficio).HasColumnName("COD_UFFICIO");
-
-                entity.Property(e => e.DataFineCorso).HasColumnName("DATA_FINE_CORSO");
-
-                entity.Property(e => e.DataInizioCorso).HasColumnName("DATA_INIZIO_CORSO");
-
-                entity.Property(e => e.DataNormalizzata).HasColumnName("DATA_NORMALIZZATA");
-
-                entity.Property(e => e.DataScadenzaCorso).HasColumnName("DATA_SCADENZA_CORSO");
-
-                entity.Property(e => e.DenominazioneEnteCertificatore).HasColumnName("DENOMINAZIONE_ENTE_CERTIFICATORE");
-
-                entity.Property(e => e.DenominazioneEnteFormatore).HasColumnName("DENOMINAZIONE_ENTE_FORMATORE");
-
-                entity.Property(e => e.Dipendente).HasColumnName("DIPENDENTE");
-
-                entity.Property(e => e.EnteFormatore).HasColumnName("ENTE_FORMATORE");
-
                 entity.Property(e => e.Id)
                     .HasColumnName("ID")
-                    .HasColumnType("INT");
+                    .HasColumnType("INT")
+                    .ValueGeneratedNever();
 
+                entity.Property(e => e.AnnoCorso).HasColumnName("ANNO_CORSO");
+                entity.Property(e => e.AttivitaFormativa).HasColumnName("ATTIVITA_FORMATIVA");
+                entity.Property(e => e.Attivo).HasColumnName("ATTIVO");
+                entity.Property(e => e.CodUfficio).HasColumnName("COD_UFFICIO");
+                entity.Property(e => e.DataFineCorso).HasColumnName("DATA_FINE_CORSO");
+                entity.Property(e => e.DataInizioCorso).HasColumnName("DATA_INIZIO_CORSO");
+                entity.Property(e => e.DataNormalizzata).HasColumnName("DATA_NORMALIZZATA");
+                entity.Property(e => e.DataScadenzaCorso).HasColumnName("DATA_SCADENZA_CORSO");
+                entity.Property(e => e.DenominazioneEnteCertificatore).HasColumnName("DENOMINAZIONE_ENTE_CERTIFICATORE");
+                entity.Property(e => e.DenominazioneEnteFormatore).HasColumnName("DENOMINAZIONE_ENTE_FORMATORE");
+                entity.Property(e => e.Dipendente).HasColumnName("DIPENDENTE");
+                entity.Property(e => e.EnteFormatore).HasColumnName("ENTE_FORMATORE");
                 entity.Property(e => e.LinkAttestato).HasColumnName("LINK_ATTESTATO");
-
                 entity.Property(e => e.MateriaCorso).HasColumnName("MATERIA_CORSO");
-
                 entity.Property(e => e.MatricolaDipendente).HasColumnName("MATRICOLA_DIPENDENTE");
-
                 entity.Property(e => e.Note).HasColumnName("NOTE");
-
                 entity.Property(e => e.Nucleo).HasColumnName("NUCLEO");
-
                 entity.Property(e => e.Reparto).HasColumnName("REPARTO");
-
                 entity.Property(e => e.Sezione).HasColumnName("SEZIONE");
-
                 entity.Property(e => e.TipologiaCorso).HasColumnName("TIPOLOGIA_CORSO");
-
                 entity.Property(e => e.TitoloCorso).HasColumnName("TITOLO_CORSO");
-
                 entity.Property(e => e.ValiditaAnni).HasColumnName("VALIDITA_ANNI");
             });
 

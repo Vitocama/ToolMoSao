@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,7 +26,22 @@ namespace ToolModiSAO
         {
             InitializeComponent();
             DataContext = new MainViewModel();
-
-        }
+            
     }
+ protected override void OnClosing(CancelEventArgs e)
+        {
+            base.OnClosing(e);
+
+            var risultato = MessageBox.Show(
+                "Sei sicuro di voler chiudere l'applicazione?",
+                "Conferma chiusura",
+                MessageBoxButton.YesNo,
+                MessageBoxImage.Question
+            );
+
+            if (risultato == MessageBoxResult.No)
+                e.Cancel = true;
+        }
 }
+    }
+

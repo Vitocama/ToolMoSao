@@ -79,8 +79,6 @@
       <DependentUpon>PersonaleView.xaml</DependentUpon>
     </Compile>
     <Compile Include="PersonaleControl\PersonaleViewModel.cs" />
-    <Compile Include="ServiceRepository\DialogService.cs" />
-    <Compile Include="ServiceRepository\IDialogService.cs" />
     <Compile Include="ServiceRepository\Repository.cs" />
     <Compile Include="ServiceRepository\IServiceRepository.cs" />
     <Compile Include="UuooControl\UuooViewModel.cs" />

@@ -1,9 +1,6 @@
-﻿using GalaSoft.MvvmLight.Views;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Input;
-using ToolModiSAO.ModificaAccountControl;
 using ToolModiSAO.ServiceRepository;
-
 
 namespace ToolModiSAO.PersonaleControl
 {
@@ -12,9 +9,13 @@ namespace ToolModiSAO.PersonaleControl
         public PersonaleView()
         {
             InitializeComponent();
-            DataContext = new PersonaleViewModel(new Repository(), new DialogService());
+            DataContext = new PersonaleViewModel(new Repository());
         }
 
-       
+        private void Row_DoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            if (DataContext is PersonaleViewModel vm)
+                vm.ApriModificaCommand.Execute(null);
+        }
     }
 }

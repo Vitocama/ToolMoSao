@@ -5,25 +5,38 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
         Title="Gestione Account" Height="450" Width="900">
-
     <Grid Margin="10">
         <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <DataGrid Grid.Row="0"
+        <!-- Barra di ricerca -->
+        <Grid Grid.Row="0" Margin="0,0,0,8">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" Text="Cerca:" VerticalAlignment="Center" Margin="0,0,8,0"/>
+            <TextBox   Grid.Column="1"
+                       Text="{Binding TestoRicerca, UpdateSourceTrigger=PropertyChanged}">
+                <TextBox.InputBindings>
+                    <KeyBinding Key="Enter" Command="{Binding CercaCommand}"/>
+                </TextBox.InputBindings>
+            </TextBox>
+        </Grid>
+
+        <DataGrid Grid.Row="1"
                   ItemsSource="{Binding ListaAccount}"
                   SelectedItem="{Binding AccountSelezionato}"
                   AutoGenerateColumns="False"
                   IsReadOnly="True"
                   CanUserAddRows="False">
-
             <DataGrid.InputBindings>
                 <MouseBinding MouseAction="LeftDoubleClick"
                               Command="{Binding ApriModificaCommand}" />
             </DataGrid.InputBindings>
-
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ID"             Binding="{Binding Id}"             Width="50"/>
                 <DataGridTextColumn Header="Utente"         Binding="{Binding Utente}"         Width="100"/>
@@ -41,7 +54,5 @@
             </DataGrid.Columns>
         </DataGrid>
 
-        <!-- Pulsanti -->
-       
     </Grid>
 </Window>
